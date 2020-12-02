@@ -6,13 +6,13 @@
 #    By: abdait-m <abdait-m@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/18 09:53:39 by abdait-m          #+#    #+#              #
-#    Updated: 2020/12/02 13:31:00 by abdait-m         ###   ########.fr        #
+#    Updated: 2020/12/02 17:57:03 by abdait-m         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libasm.a
 
-FILES = $(wildcard ./srcs/ft_write.s ./srcs/ft_read.s)
+FILES = $(wildcard ./srcs/ft_write.s ./srcs/ft_read.s ./srcs/ft_strlen.s)
 
 HEADER = ./assembly.h
 
